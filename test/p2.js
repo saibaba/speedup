@@ -91,7 +91,7 @@ function example () {
 
 function done (err) {
   if (err) console.error(err);
-  //Campaign.remove(function () {
+  Campaign.remove(function () {
     connection.close();
-  //});
+  });
 }

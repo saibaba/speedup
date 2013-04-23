@@ -8,14 +8,17 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "test": "test/*.js"
+    "test": "mocha test/p2.js"
   },
   "dependencies": {
     "express": "3.x",
     "mongodb": "*",
     "mongoose": "*"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "",
+    "should" : "" 
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
